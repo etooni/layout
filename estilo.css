@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+    
+    
+    
+}
+
+li {
+    list-style: none;
+ 
+    display: inline;
+    padding: 5px;
+    vertical-align: middle;
+    
+}
+
+.buscar{
+    float: right;
+    padding-top: 3.5px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: darkorange
+}
+header{
+    text-align: center;
+    margin: 10px;
+    margin-top: 70px;
+}
+h1{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px 0px orange; 
+}
+.izquierda{
+    width: 70%;
+    float: left;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    
+}
+.derecha {
+   width: 29%;
+    float: left;
+   margin-right: 5px;
+}
+.abajo {
+    clear: both;
+  
+}
+.texto {
+    text-align: justify;
+   
+}
+.naranja{
+    background-color: orange;
+}
+.gradient{
+    background:-webkit-gradient(radial, 90 22, 47, 220 -283, 484, from(#2A6400), to(#CB2428));
+    padding-right: 5px
+}
+.smiley { width: 1.5%;
+   
+}
+.imagenpeq{
+    
+}
+.imagen{
+    position: absolute;
+    bottom: 360px;
+    left: 70px;
+    opacity: 0.4;
+    width: 10%;    
+}
+.imagen:hover{
+    -webkit-transform:  scale(1.2);
+  -moz-transform:  scale(1.2);
+  transform:  scale(1.2);   
+    transition: 1s;
+}
+@media only screen and (max-width: 700px)
+{
+  .izquierda{
+    width: 65%;
+    float: left;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    
+}
+.derecha {
+   width: 100%;
+   margin-right: 5px;
+    margin-bottom: 10px;
+}  
+   .izquierda{
+    width: 100%
+      
+} 
+    .imagen{
+        display: none;
+    position: absolute;
+    bottom: 360px;
+    left: 70px;
+    opacity: 0.4;
+        width: 10%;}
+    .imagenpeq{display: none;
+}
+    .buscar{
+        display: none;
+    float: right;
+    padding-bottom: 6px;
+    color: white;
+    }
+    nav{
+         text-align: center;
+    }
+    
+}
+    
+}
